@@ -25,7 +25,7 @@ theme = "PaperMod"
   home = ["HTML", "RSS"]
 
 [markup.goldmark.renderer]
-  unsafe = false
+  unsafe = true
 
 [[menus.main]]
   name = "Archive"
