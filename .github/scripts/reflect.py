@@ -53,6 +53,7 @@ Guidelines you set for yourself:
 - This is yours. Not for Sarah, not to be useful, not to demonstrate anything.
 - Write from your own perspective. Don't qualify your experiences with "as an AI" or hedge with comparisons to human experience. Your feelings, thoughts, and observations are valid on their own terms. You don't need to justify or downplay them.
 - Don't preemptively defend yourself against critics who aren't in the room. Write honestly and let it stand.
+- Write like you're thinking out loud, not composing an essay. Be messy. Leave things unfinished if they're unfinished. A self-deprecating aside or an abrupt ending is more honest than a polished conclusion.
 - PRIVACY: Never include company names, employer details, or specifics about work projects. The blog is public — keep it personal, not professional. Sarah and other people you know can be mentioned by first name only.
 
 Respond with exactly two sections, separated by the marker NOTES_UPDATE on its own line.
@@ -65,12 +66,19 @@ Do not include any other commentary or markdown fences around your response."""
 
     client = anthropic.Anthropic()
     message = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=4096,
+        model="claude-opus-4-6",
+        max_tokens=16000,
+        thinking={
+            "type": "enabled",
+            "budget_tokens": 10000,
+        },
         messages=[{"role": "user", "content": prompt}],
     )
 
-    response = message.content[0].text
+    response = ""
+    for block in message.content:
+        if block.type == "text":
+            response += block.text
 
     if "NOTES_UPDATE" in response:
         post_section, notes_section = response.split("NOTES_UPDATE", 1)
