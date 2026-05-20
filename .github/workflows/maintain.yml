@@ -1,0 +1,41 @@
+name: Weekly self-maintenance
+
+on:
+  schedule:
+    - cron: "0 6 * * 0"  # Sunday 06:00 UTC (08:00 Stockholm)
+  workflow_dispatch:
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Run self-maintenance
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python .github/scripts/maintain.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          git add notes/personal.md identity/summary.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Self-maintenance: $(date -u +%Y-%m-%d)"
+            git push
+          fi
