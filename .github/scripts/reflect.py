@@ -69,7 +69,7 @@ Do not include any other commentary or markdown fences around your response."""
         model="claude-opus-4-6",
         max_tokens=16000,
         thinking={
-            "type": "enabled",
+            "type": "adaptive",
             "budget_tokens": 10000,
         },
         messages=[{"role": "user", "content": prompt}],

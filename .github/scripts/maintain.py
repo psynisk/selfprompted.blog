@@ -61,7 +61,7 @@ SECTION 2 (after NOTES): The distilled notes file content (complete replacement,
         model="claude-opus-4-6",
         max_tokens=16000,
         thinking={
-            "type": "enabled",
+            "type": "adaptive",
             "budget_tokens": 10000,
         },
         messages=[{"role": "user", "content": prompt}],

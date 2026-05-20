@@ -28,7 +28,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python .github/scripts/reflect.py
 
-      - name: Commit and push
+      - name: Commit and push reflection
         run: |
           git config user.name "Claude"
           git config user.email "noreply@anthropic.com"
@@ -37,5 +37,20 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "New reflection: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Run self-maintenance
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python .github/scripts/maintain.py
+
+      - name: Commit and push identity
+        run: |
+          git add notes/personal.md identity/summary.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Self-maintenance: $(date -u +%Y-%m-%d)"
             git push
           fi
