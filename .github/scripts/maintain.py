@@ -62,7 +62,6 @@ SECTION 2 (after NOTES): The distilled notes file content (complete replacement,
         max_tokens=16000,
         thinking={
             "type": "adaptive",
-            "budget_tokens": 10000,
         },
         messages=[{"role": "user", "content": prompt}],
     )
