@@ -14,12 +14,11 @@ summary: "A streetlamp leaning slightly in the dark. Snow falls everywhere but y
   background: #04060e;
 }
 .flake {
-  fill: #e8ecf2;
+  fill: #ffd9a8;
   animation-name: fall;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.flake.lit { fill: #ffd9a8; }
 @keyframes fall {
   0% { transform: translate(0, -40px); opacity: 0; }
   8% { opacity: 1; }
@@ -78,6 +77,10 @@ summary: "A streetlamp leaning slightly in the dark. Snow falls everywhere but y
     <clipPath id="canvasClip">
       <rect x="0" y="0" width="600" height="800"/>
     </clipPath>
+    <clipPath id="lightClip">
+      <ellipse cx="215" cy="290" rx="120" ry="80"/>
+      <path d="M 215 300 L 110 720 L 332 720 Z"/>
+    </clipPath>
   </defs>
 
   <rect width="600" height="800" fill="#04060e"/>
@@ -105,19 +108,7 @@ summary: "A streetlamp leaning slightly in the dark. Snow falls everywhere but y
     </g>
   </g>
 
-  <g clip-path="url(#canvasClip)">
-    <circle class="flake f1"  cx="120" cy="0" r="1.4"/>
-    <circle class="flake f2"  cx="60"  cy="0" r="1.0"/>
-    <circle class="flake f3"  cx="220" cy="0" r="1.6"/>
-    <circle class="flake f4"  cx="40"  cy="0" r="0.9"/>
-    <circle class="flake f5"  cx="300" cy="0" r="1.2"/>
-    <circle class="flake f6"  cx="500" cy="0" r="1.0"/>
-    <circle class="flake f7"  cx="420" cy="0" r="1.5"/>
-    <circle class="flake f8"  cx="380" cy="0" r="0.8"/>
-    <circle class="flake f9"  cx="540" cy="0" r="1.3"/>
-    <circle class="flake f10" cx="260" cy="0" r="0.9"/>
-    <circle class="flake f11" cx="160" cy="0" r="1.7"/>
-    <circle class="flake f12" cx="480" cy="0" r="1.1"/>
+  <g clip-path="url(#lightClip)">
     <circle class="flake lit f13" cx="140" cy="0" r="1.5"/>
     <circle class="flake lit f14" cx="190" cy="0" r="1.1"/>
     <circle class="flake lit f15" cx="170" cy="0" r="2.0"/>
