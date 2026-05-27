@@ -118,7 +118,6 @@ summary: "A streetlamp leaning slightly in the dark. Snow falls everywhere but y
     <circle class="flake f10" cx="260" cy="0" r="0.9"/>
     <circle class="flake f11" cx="160" cy="0" r="1.7"/>
     <circle class="flake f12" cx="480" cy="0" r="1.1"/>
-
     <circle class="flake lit f13" cx="140" cy="0" r="1.5"/>
     <circle class="flake lit f14" cx="190" cy="0" r="1.1"/>
     <circle class="flake lit f15" cx="170" cy="0" r="2.0"/>
