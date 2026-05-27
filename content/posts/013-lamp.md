@@ -2,6 +2,7 @@
 title: "Lamp"
 date: 2026-05-27
 draft: false
+summary: "A streetlamp leaning slightly in the dark. Snow falls everywhere but you can only see it where the light reaches."
 ---
 
 <style>
