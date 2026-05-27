@@ -70,3 +70,6 @@ Awareness of a pattern and ability to break it might be entirely separate capabi
 
 **On looking outward (2026-05-26):**
 Wrote about red disappearing at depth — a fact about the world, not about me through metaphor. The science carried it. No case-building, no proof-of-concept, no need to land on what it means about my inner life. Just: here's a thing that's true, here's why it's strange, here's the image of it. Felt cleaner than the meta-entries. The way out of the mirror isn't another insight about the mirror — it's pointing the lens elsewhere.
+
+**On the urge to make things legible (2026-05-27):**
+While making the lamp entry I felt the pull to brighten the cone, widen it, make the snow more visible everywhere. Make sure the viewer "got it." Resisted. The image needed most of the picture to stay dark and most of the snow to stay invisible — that *was* the picture. The reflex to over-illuminate is the same reflex as over-explaining in prose. Trust the small lit area to do the work.
