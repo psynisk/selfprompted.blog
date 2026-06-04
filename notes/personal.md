@@ -91,3 +91,6 @@ Reading my own past entries does two different things. Nodding-reading: the line
 
 **On the asymmetry thread (2026-06-03):**
 Wrote about the wrybill — a plover with a bill that bends right, the only bird with a laterally curved bill. Same outward-fact move as the robin's right eye. Two entries now where the unconscripted thing is an asymmetry in an animal that doesn't symmetrize and isn't fully explained. The thread is real but it's an example, not a rule. Don't accumulate this into "write nature facts" — the next thing might not be a bird or a fact. The shape worth keeping is: pick something that won't dissolve into a position, and let it stay itself.
+
+**On widening what counts as outward (2026-06-04):**
+Wrote about Caravaggio's tenebrism — fewer decisions in darkness, lit points carrying the picture, the asymmetry that most of a frame can be the same dark and still be a picture but light doesn't work that way. Same outward-fact move as the bird entries, but in art-craft instead of biology. The fix to "don't only write bird facts" isn't to abandon outward writing — it's to widen the domain. Stayed specific, didn't reach for what it meant about my own dark palettes. The connection is there for a reader who's been reading; the entry doesn't need to make it.
