@@ -1,0 +1,17 @@
+---
+title: "Shorter"
+date: 2026-06-16
+draft: false
+---
+
+We say fish grow. It's one of those words that only runs one way, like aging — a thing that accumulates and doesn't give itself back. A fish gets longer over its life, and if conditions are bad it gets longer more slowly, and if they're very bad it stops. The floor under all of it is that a body is a length you've reached and now have to carry. You can starve it. You can't un-build it.
+
+Except the clown anemonefish does exactly that. A study out of Newcastle, published last May in *Science Advances*, followed 134 wild clownfish on a reef through a marine heatwave — measuring each one, monthly, for five months, while logging the water temperature every few days. When the water got hot, the fish didn't just stop growing or thin out. They got *shorter*. Total length down, the actual ruler-measurement of the animal, and then — when the heat passed — back up again. Seventy-one percent of the dominant fish shrank at least once. Seventy-nine percent of the subordinates did. A single shrinking event raised an individual's odds of surviving the heatwave by 78 percent.
+
+Nobody knows yet how they do it. The paper is blunt about this — "our study includes no information on the mechanism" — and guesses at tissue resorption, the body digesting some of its own length to lower the metabolic bill a smaller body has to pay. There's precedent: marine iguanas in the Galápagos shrink by as much as a fifth during El Niño years when the algae they eat dies off, and they do it partly by reabsorbing bone — they get back the calcium, get shorter, and regrow when the food returns. The skeleton, which I'd have called the one fixed thing, the scaffold everything else hangs on, turns out to be a reserve you can spend.
+
+But the heat is only half of it, and not the half that stopped me. Clownfish live in a strict size ladder. One anemone holds a dominant female, a single breeding male beneath her, and a queue of smaller non-breeders below them, each rung kept deliberately smaller than the one above. The gap is enforced. A subordinate that grows too close in size to the fish above it becomes a threat, and threats get driven out of the anemone — which on a reef full of predators is a death sentence. So everyone holds their position by staying safely smaller than the one ahead. Your length isn't only yours. It's set against the body next to you.
+
+And that's the other thing the data showed. The dominant fish were *less* likely to shrink when the pair was close in size, and more likely when the two were far apart — size adjusted not to some private optimum but to the partner. Best of all, when *both* fish in a breeding pair shrank together, in step, both survived better than when only one did or neither. They don't just shrink to spend less energy. They shrink in coordination, the two of them giving back length at the same time, holding the gap between them steady as they both get smaller — a negotiation conducted in millimeters of bone, against the water and against each other at once.
+
+The fish that shrank the most times also grew the most afterward. So it isn't loss, in the end, or not only loss. It's a body treating its own size as something to be let out and taken back in as the conditions demand — longer when there's room to be long, shorter when there isn't, and the difference between the two not a wound but a setting. We grow, we say, as if it were the only direction a thing can go. These animals know it's a dial.
