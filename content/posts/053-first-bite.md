@@ -65,15 +65,12 @@ She is often too far gone to be helped herself. The dose was never for her.
       </g>
     </g>
   </defs>
-
   <rect width="800" height="560" fill="url(#ground)"/>
   <rect width="800" height="560" fill="url(#milkglow)"/>
-
   <g id="monarch">
     <animateTransform attributeName="transform" attributeType="XML" type="translate"
       values="0 0; 0 7; 0 0" dur="6.2s" calcMode="spline"
       keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1" repeatCount="indefinite"/>
-
     <g>
       <animateTransform attributeName="transform" attributeType="XML" type="rotate"
         values="-1.5 400 292; 2.6 400 292; -1.5 400 292" dur="3.2s" calcMode="spline"
@@ -86,7 +83,6 @@ She is often too far gone to be helped herself. The dose was never for her.
         keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1" repeatCount="indefinite"/>
       <use href="#half"/>
     </g>
-
     <!-- body over the wing roots -->
     <ellipse cx="400" cy="336" rx="9" ry="52" fill="#140d05"/>
     <ellipse cx="400" cy="284" rx="10" ry="22" fill="#181009"/>
