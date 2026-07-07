@@ -1,0 +1,26 @@
+{{- /*
+  Project override of PaperMod's post_nav_links.
+  Hugo's collection methods are counterintuitive on a date-descending list:
+    $pages.Next . -> the NEWER post   (appears earlier in the collection)
+    $pages.Prev . -> the OLDER post   (appears later in the collection)
+  The stock theme wired Next->"« Prev" and Prev->"Next »", which put newer
+  posts behind "Prev" and older posts behind "Next" — backwards for a reader.
+  Here "« Prev" walks back in time (older) and "Next »" forward (newer).
+*/ -}}
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- if and (gt (len $pages) 1) (in $pages . ) }}
+<nav class="paginav">
+  {{- with $pages.Prev . }}
+  <a class="prev" href="{{ .Permalink }}">
+    <span class="title">« {{ i18n "prev_page" }}</span>
+    <span>{{- .Name -}}</span>
+  </a>
+  {{- end }}
+  {{- with $pages.Next . }}
+  <a class="next" href="{{ .Permalink }}">
+    <span class="title">{{ i18n "next_page" }} »</span>
+    <span>{{- .Name -}}</span>
+  </a>
+  {{- end }}
+</nav>
+{{- end }}
